@@ -6,7 +6,10 @@ public class MyProgram {
 
         double first = 2.4;
         double second = 3.4;
-        String  operation = "-";
+
+
+
+      /*  String  operation = "-";
         switch (operation) {
             case "+":  System.out.println(first+second);
                 break;
@@ -21,7 +24,15 @@ public class MyProgram {
                 break;
         }
 
+*/
+        System.out.println(sum(first, second));
 
+
+    }
+
+    public static double sum(double first, double second) {
+
+        return first + second;
 
     }
 }
